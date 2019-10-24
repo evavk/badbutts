@@ -1,0 +1,223 @@
+<! doctype html>
+
+<html>
+	<head>
+
+		<title> Bad Butts
+		</title>
+			
+<!-- //map element -->
+<meta charset='utf-8' />
+		<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v1.4.1/mapbox-gl.js'></script>
+
+		<link href='https://api.tiles.mapbox.com/mapbox-gl-js/v1.4.1/mapbox-gl.css' rel='stylesheet' />
+
+<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+		<link href="https://fonts.googleapis.com/css?family=Palanquin+Dark:400,500,600,700&display=swap" rel="stylesheet">
+		
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,600,600i,700,700i&display=swap" rel="stylesheet">
+		
+		<link rel="stylesheet" href="css/styles.css">
+		<link rel="stylesheet" href="css/mediaqueries.css">
+		<link rel="stylesheet" href="css/slick.css">
+
+		<link rel="icon" type="image/x-icon" sizes="25x25" href="favicon.ico">
+
+ 	</head>
+
+
+
+	<body>
+
+		<header class="floaties">
+
+			<div class="container flex">
+				<img class="logo" alt="Bad Butts" src="img/logo.png">
+
+				<nav>
+					<ul> 		
+						<li> <a class="btn btn-outline" href="#maptarget">map</a></li>
+						<li> <a class="btn btn-outline" href="#whattarget">about</a></li>
+
+					</ul>
+				</nav>
+
+				<div class="col-md-8 offset-md-2">
+					<div class="col-introcopy"> 
+
+						<h2> + = cigarette butts = + </h2>
+						<p>They are the most littered item in the world and despite <br>'No Smoking' laws in place, more than 5,000 butts were collected at Balmoral Beach over the past 2 years. 
+						</p>
+					</div>
+				</div>
+			</div>
+		</header>
+ 
+
+		<section class="what">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 offset-md-2">
+						<div class="what">
+
+							<h1><a name="whattarget"></a>what are we doing? </h1>
+							
+							<p>Over the <b>Summer of 2019-2020,</b> we are doing a waste audit on cigarette butts to observe smoking patterns at Balmoral Beach. 
+							Our findings will be collated onto our <a href="#maptarget">interactive map</a> to identify hotspots and any recurring waste issues. 
+							<br><br>
+							<b>Our goal is to collect data to provide evidence-based waste solutions to local councils.</b> </p>
+
+								<div class="buttgif">
+									<img class="blackbutt" src="img/buttdivider.gif" alt="cigarette" width="100%">
+								</div>	
+							<h1>what are our methods? </h1>
+
+							<p> We have 6+ years experience as part of the <a href="http://www.responsiblerunners.org">'Responsible Runners'</a> Balmoral beach clean up crew. Doing monthly clean ups around Mosman's parks and beaches, we usually spend 30 minutes collecting rubbish and 30 minutes categorising and counting what we've found. 
+							<br><br>
+							Thus far our data has been shared online and to the <a href="https://www.tangaroablue.org/">Australian Marine Debris Initiative,</a> sadly however not much has changed. But <i>this</i> is our opportunity. </p>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="who">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 offset-md-2">
+						<div class="whoarewe">
+
+							<h1> who are we? </h1>
+
+							<p> We are a couple of plastic free ladies in the Sustainability world who are sick of butts (of the bad kind) poisoning our natural world. </p>
+
+							<div class="bothprofiles">
+								<div class="row">
+									<div class="col">
+										<img class="eva-picture" src="img/eva_small.jpg" alt="Eva Profile Picture" >
+										<h3> eva </h3>
+
+										<p>is a designer at <b>Republic Of Everyone,</b> a creative agency that champions Sustainability. <br>She's  determined to make the world a better place with well designed solutions.</p>
+										<a class="btn btn-filled" href="https://www.linkedin.com/in/eva-kiss-36193670/"> connect with her</a>
+									</div>
+									<div class="col">
+										<img class="jo-picture" src="img/Jo_small_2.jpg" alt="Jo Profile Picture" >
+										<h3> jo </h3>
+										<p>is the lead Sustainability Specialist at <b>NABERS.</b> <br>She founded Sydney’s first single-use plastic-free, carbon neutral food delivery service in 2016 and is a ... </p>
+										<a class="btn btn-filled" href="https://www.linkedin.com/in/josephinenorth/"> connect with her</a>
+									</div>
+								
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>				
+			</div>
+		</section>
+
+
+		<section class="our_map">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 offset-md-2">
+						<div id="mapsup">
+
+							<h1> <a name="maptarget"></a>our detailed map </h1>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+		<section>
+			<div id='map'> </div>
+		</section>
+
+
+		<section class="gallery">
+			<div class="container">
+
+				<h1> our clean ups </h1>
+					<div class="hero-carousel">
+									  
+						<div>
+							<img src="../personal_project/img/RR_1.png"></div>
+									  
+						<div>
+							<img src="../personal_project/img/RR_2.jpg"></div>
+									  
+						<div>
+							<img src="../personal_project/img/RR_3.jpg"></div>
+
+						<div>
+							<img src="../personal_project/img/RR_4.jpg"></div>
+
+						<div>
+							<img src="../personal_project/img/RR_5.jpg"></div>
+
+						<div>
+							<img src="../personal_project/img/RR_6.jpg"></div>
+
+						<div>
+							<img src="../personal_project/img/RR_7.jpg"></div>
+									  		
+						<div>
+							<img src="../personal_project/img/RR_8.jpg"></div>
+									  		
+						<div>							<img src="../personal_project/img/RR_9.jpg"></div>
+						
+						<div>
+							<img src="../personal_project/img/RR_10.jpg"></div>
+				</div>
+			</div>
+		</section>
+
+		<main class="wrapper">
+			<section class="get-involved parallax bg1">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-8 offset-md-2">
+							<div class="get-involved-box">
+
+								<h1> get involved </h1>
+								<p> Come join a clean up, suggest a spot in Balmoral that needs some love or chat with us about our Council programs.</p>
+								<a class="btn btn-filled" href="https://www.facebook.com/groups/Responsiblerunnersbalmoral/">join a clean up</a>
+								<a class="btn btn-filled" href="#">suggest a spot</a>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+
+
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<p>This website was designed and built by <a class="footerlink" href="http://www.evakissdesign.com/works">Eva Kiss Design. </a></p><br>
+						<a href="http://www.evakissdesign.com/works">
+						<img src="../personal_project/img/ekd_logo.png" alt="Eva Kiss Design logo" width="70px"></a>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"> </script>
+
+		<script src="js/slick.min.js"></script>
+
+		<script src="js/script.js"></script>
+
+
+	</body>
+
+</html>
