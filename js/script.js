@@ -167,7 +167,7 @@ cigbutts.forEach( function(e, i, a) {
 if ($('.hero-carousel').length){
 
 $('.hero-carousel').slick({ 
-	autoplay      : false,
+	autoplay      : true,
 	autoplaySpeed : 3000,
 	dots          : true, 
 	prevArrow     : '<i class="fa fa-chevron-left"></i>',
