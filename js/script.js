@@ -132,7 +132,7 @@ map.on('mouseenter', 'places', function(e) {
 
 if ($('.floaties').length){
 
-var cigbutt = '../personal_project/img/singlebutt.png';
+var cigbutt = '/img/singlebutt.png';
 
 var floaties = document.querySelector('.floaties');
 
@@ -140,7 +140,7 @@ var rect = floaties.getBoundingClientRect();
 
 var myTop = 0;
 var myLeft = 0;
-var myImages = ["../personal_project/img/singlebutt2.png", "../personal_project/img/singlebutt.png", "../personal_project/img/singlebutt3.png" ];
+var myImages = ["/img/singlebutt2.png", "/img/singlebutt.png", "/img/singlebutt3.png" ];
 
 for( var i = 0; i < 120; i++ ) {
 	myTop = Math.floor(Math.random() * (Math.floor(rect.height) - 100));
