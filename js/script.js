@@ -10,7 +10,7 @@ if ($('#map').length){
 		container: 'map', // container id
 		style: 'mapbox://styles/evar/ck21kmpkw56i61ckif2z156zh', //hosted style id
 		center: [151.252, -33.826], // starting position
-		zoom: 14.0 // starting zoom
+		zoom: 14.5 // starting zoom
 	
 	});
 
@@ -36,7 +36,7 @@ map.addImage('pin', image);
 					"type": "Feature",
 					"properties": {
 						"description": 
-						"<h4>Clean Up #1</h4><p><i>9th November, 2019 - Rotunda Grass</i> <br><br>356 cigarette butts<br><br>Top 3 items found: <ul class='popuplist'> <li> xx soft plastics </li> <li> xx metal bottle caps </li><li> xx plastic lids </li> </ul> <br><a href='https://www.facebook.com/photo.php?fbid=10162677748735553&set=pcb.2546814802074218&type=3&theater&ifg=1'>see our photos </a></p>",
+						"<h4>Clean Up #1</h4><p><i>9th November, 2019 - Rotunda Grass</i> <br><br><b>356 </b>cigarette butts<br><br>Top 3 items found: <ul class='popuplist'> <li> xx soft plastics </li> <li> xx metal bottle caps </li><li> xx plastic lids </li> </ul> <br><a href='https://www.facebook.com/photo.php?fbid=10162899136745553&set=pcb.10162899137310553&type=3&theater&ifg=1'>see our photos </a></p>",
 					},
 
 					"geometry": {
@@ -48,7 +48,7 @@ map.addImage('pin', image);
 					"type": "Feature",
 					"properties": {
 						"description": 
-						"<h4>Clean Up #2</h4><p><i>1st December, 2019 - Hunter Park</i> <br><br>126 cigarette butts<br><br>Top 3 items found: <ul class='popuplist'><li> 47 soft plastics </li> <li> 9 metal bottle caps </li><li>6 plastic cutlery</li></ul> <br><a href='https://www.facebook.com/photo.php?fbid=10162677748735553&set=pcb.2546814802074218&type=3&theater&ifg=1'>see our photos </a></p>",
+						"<h4>Clean Up #2</h4><p><i>1st December, 2019 - Hunter Park</i> <br><br><b>126</b> cigarette butts<br><br>Top 3 items found: <ul class='popuplist'><li> 47 soft plastics </li> <li> 9 metal bottle caps </li><li>6 plastic cutlery</li></ul> <br><a href='https://www.facebook.com/photo.php?fbid=10162896281580553&set=pcb.2648097115279319&type=3&theater&ifg=1'>see our photos </a></p>",
 					},
 					"geometry": {
 					"type": "Point",
@@ -59,7 +59,7 @@ map.addImage('pin', image);
 					"type": "Feature",
 					"properties": {
 						"description": 
-						"<h4>Clean Up #3</h4><p><i>7th December, 2019 - Corner of Raglan St & The Esplanade</i> <br><br>408 cigarette butts<br><br>Top 3 items found: <ul class='popuplist'> <li> 44 metal bottle caps</li><li> 14 straws </li> <li> 16 salt packets </li></ul><br><a href='https://www.facebook.com/photo.php?fbid=10162677748735553&set=pcb.2546814802074218&type=3&theater&ifg=1'>see our photos </a></p>",
+						"<h4>Clean Up #3</h4><p><i>7th December, 2019 - Corner of Raglan St & The Esplanade</i> <br><br><b>408</b> cigarette butts<br><br>Top 3 items found: <ul class='popuplist'> <li> 44 metal bottle caps</li><li> 14 straws </li> <li> 16 salt packets </li></ul><br><a href='https://www.facebook.com/photo.php?fbid=10162936057265553&set=pcb.2669426716479692&type=3&theater&ifg=1'>see our photos </a></p>",
 					},
 					"geometry": {
 					"type": "Point",
@@ -70,18 +70,18 @@ map.addImage('pin', image);
 					"type": "Feature",
 					"properties": {
 						"description": 
-						"<h4>Clean Up #4</h4><p><i>22nd December, 2019 - Rocky Point Island</i> <br><br>233 cigarette butts<br><br>Top 3 items found: <ul class='popuplist'> <li> 53 plastic bottle caps </li> <li> 53 soft plastics </li><li> 25 hard plastics</li></li></ul> <br><a href='https://www.facebook.com/photo.php?fbid=10162677748735553&set=pcb.2546814802074218&type=3&theater&ifg=1'>see our photos </a></p>",
+						"<h4>Clean Up #4</h4><p><i>22nd December, 2019 - Rocky Point Island</i> <br><br><b>233</b> cigarette butts<br><br>Top 3 items found: <ul class='popuplist'> <li> 53 plastic bottle caps </li> <li> 53 soft plastics </li><li> 25 hard plastics</li></li></ul> <br><a href='https://www.facebook.com/photo.php?fbid=10162677748735553&set=pcb.2546814802074218&type=3&theater&ifg=1'>see our photos </a></p>",
 					},
 					"geometry": {
 					"type": "Point",
-					"coordinates": [151.8232687, -33.2524901]
+					"coordinates": [151.252371, -33.823200]
 					}
 
 				}, {
 					"type": "Feature",
 					"properties": {
 						"description": 
-						"<h4>Clean Up #5</h4><p><i>12th January, 2020 - The Esplanade</i> <br><br>302 cigarette butts<br><br> Top 3 items found: <ul class='popuplist'><li> 86 hard plastics </li> <li> 22 plastic bottle caps </li><li> 27 metal bottle caps</li></li></ul> <br><a href='https://www.facebook.com/photo.php?fbid=10162677748735553&set=pcb.2546814802074218&type=3&theater&ifg=1'>see our photos </a></p>",
+						"<h4>Clean Up #5</h4><p><i>12th January, 2020 - The Esplanade</i> <br><br><b>302</b> cigarette butts<br><br> Top 3 items found: <ul class='popuplist'><li> 86 hard plastics </li> <li> 22 plastic bottle caps </li><li> 27 metal bottle caps</li></li></ul> <br><a href='https://www.facebook.com/photo.php?fbid=10162677748735553&set=pcb.2546814802074218&type=3&theater&ifg=1'>see our photos </a></p>",
 					},
 					"geometry": {
 					"type": "Point",
@@ -93,7 +93,7 @@ map.addImage('pin', image);
 					"type": "Feature",
 					"properties": {
 						"description": 
-						"<h4>Clean Up #6</h4><p><i>27th January, 2020 - Public Dining Room to Balmoral Oval</i> <br><br> 216 cigarette butts<br><br>Top 3 items found: <ul class='popuplist'><li> 75+ soft plastics </li> <li> 38 metal bottle caps </li><li> 14 plastic bottle caps</li></li></ul> <br><a href='https://www.facebook.com/photo.php?fbid=10162677748735553&set=pcb.2546814802074218&type=3&theater&ifg=1'>see our photos </a></p>",
+						"<h4>Clean Up #6</h4><p><i>27th January, 2020 - Public Dining Room to Balmoral Oval</i> <br><br><b>216</b> cigarette butts<br><br>Top 3 items found: <ul class='popuplist'><li> 75+ soft plastics </li> <li> 38 metal bottle caps </li><li> 14 plastic bottle caps</li></li></ul> <br><a href='https://www.facebook.com/photo.php?fbid=10162677748735553&set=pcb.2546814802074218&type=3&theater&ifg=1'>see our photos </a></p>",
 					},
 					"geometry": {
 					"type": "Point",
@@ -101,6 +101,29 @@ map.addImage('pin', image);
 					}
 
 
+
+				}, {
+					"type": "Feature",
+					"properties": {
+						"description": 
+						"<h4>Clean Up #7</h4><p><i>20th February, 2020 - Edwards Beach </i> <br><br><b>xx</b> cigarette butts<br><br>Top 3 items found: <ul class='popuplist'><li> xx soft plastics </li> <li> xx metal bottle caps </li><li> xx plastic bottle caps</li></li></ul> <br><a href='https://www.facebook.com/photo.php?fbid=10162677748735553&set=pcb.2546814802074218&type=3&theater&ifg=1'>see our photos </a></p>",
+					},
+					"geometry": {
+					"type": "Point",
+					"coordinates": [151.251100, -33.821747]
+					}
+
+
+				}, {
+					"type": "Feature",
+					"properties": {
+						"description": 
+						"<h4>Clean Up #8</h4><p><i>21st February, 2020 - South of Balmoral Beach </i> <br><br><b>xx</b> cigarette butts<br><br>Top 3 items found: <ul class='popuplist'><li> xx soft plastics </li> <li> xx metal bottle caps </li><li> xx plastic bottle caps</li></li></ul> <br><a href='https://www.facebook.com/photo.php?fbid=10162677748735553&set=pcb.2546814802074218&type=3&theater&ifg=1'>see our photos </a></p>",
+					},
+					"geometry": {
+					"type": "Point",
+					"coordinates": [151.255868, -33.828467]
+					}
 
 
 

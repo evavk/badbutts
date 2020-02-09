@@ -332,8 +332,9 @@ footer {
 Contact us page*/
 
 
-.wrapper {
+.wrapper-2 {
 	position: relative;
+	height: 100vh;
 	text-align: center;
 	padding-top:80px;
 	padding-bottom: 50px;
