@@ -36,46 +36,72 @@ map.addImage('pin', image);
 					"type": "Feature",
 					"properties": {
 						"description": 
-						"<h4>Clean Up #1</h4><p><i>19th October, 2019 - 12 people</i> <br><br> Items found: <ul class='popuplist'><li>161 cigarette butts </li> <li> 360+ soft plastics </li> <li> 58 metal bottle caps </li><li> 17 plastic lids </li> </ul> <a href='#'>read the comprehensive list</a> <br><a href='https://www.facebook.com/photo.php?fbid=10162677748735553&set=pcb.2546814802074218&type=3&theater&ifg=1'>see our photos </a></p>",
+						"<h4>Clean Up #1</h4><p><i>9th November, 2019 - Rotunda Grass</i> <br><br>356 cigarette butts<br><br>Top 3 items found: <ul class='popuplist'> <li> xx soft plastics </li> <li> xx metal bottle caps </li><li> xx plastic lids </li> </ul> <br><a href='https://www.facebook.com/photo.php?fbid=10162677748735553&set=pcb.2546814802074218&type=3&theater&ifg=1'>see our photos </a></p>",
 					},
 
 					"geometry": {
 						"type": "Point",
-						"coordinates": [151.2540407, -33.828763]
+						"coordinates": [151.2510464, -33.8228665]
 					}
 
 				}, {
 					"type": "Feature",
 					"properties": {
 						"description": 
-						"<h4>Clean Up #2</h4><p><i>27th October, 2019 - 16 people</i> <br><br>Items found: <ul class='popuplist'><li>202 cigarette butts </li> <li> 12 straws </li> <li> 36 metal bottle caps </li><li>12 broken glass</li></ul><a href='#'>read the comprehensive list</a> <br><a href='https://www.facebook.com/photo.php?fbid=10162677748735553&set=pcb.2546814802074218&type=3&theater&ifg=1'>see our photos </a></p>",
+						"<h4>Clean Up #2</h4><p><i>1st December, 2019 - Hunter Park</i> <br><br>126 cigarette butts<br><br>Top 3 items found: <ul class='popuplist'><li> 47 soft plastics </li> <li> 9 metal bottle caps </li><li>6 plastic cutlery</li></ul> <br><a href='https://www.facebook.com/photo.php?fbid=10162677748735553&set=pcb.2546814802074218&type=3&theater&ifg=1'>see our photos </a></p>",
 					},
 					"geometry": {
 					"type": "Point",
-					"coordinates": [151.252861, -33.826962]
+					"coordinates": [151.2505623, -33.8247755]
 					}
 				
 				}, {
 					"type": "Feature",
 					"properties": {
 						"description": 
-						"<h4>Clean Up #3</h4><p><i>9th November, 2019 - 5 people</i> <br><br>Items found: <ul class='popuplist'><li>86 cigarette butts </li> <li> 308 soft plastics</li><li> 2 straws </li> <li> 11 metal bottle caps </li></ul><a href='#'>read the comprehensive list</a> <br><a href='https://www.facebook.com/photo.php?fbid=10162677748735553&set=pcb.2546814802074218&type=3&theater&ifg=1'>see our photos </a></p>",
+						"<h4>Clean Up #3</h4><p><i>7th December, 2019 - Corner of Raglan St & The Esplanade</i> <br><br>408 cigarette butts<br><br>Top 3 items found: <ul class='popuplist'> <li> 44 metal bottle caps</li><li> 14 straws </li> <li> 16 salt packets </li></ul><br><a href='https://www.facebook.com/photo.php?fbid=10162677748735553&set=pcb.2546814802074218&type=3&theater&ifg=1'>see our photos </a></p>",
 					},
 					"geometry": {
 					"type": "Point",
-					"coordinates": [151.25116500000001, -33.8241425]
+					"coordinates": [151.2514561, -33.8264456]
 					}
 
 				}, {
 					"type": "Feature",
 					"properties": {
 						"description": 
-						"<h4>Clean Up #4</h4><p><i>8th January, 2020 - 15 people</i> <br><br>Items found: <ul class='popuplist'><li>385 cigarette butts </li> <li> 23 straws </li> <li> 67 metal bottle caps </li><li> 21 salt packets</li></li></ul><a href='#'>read the comprehensive list</a> <br><a href='https://www.facebook.com/photo.php?fbid=10162677748735553&set=pcb.2546814802074218&type=3&theater&ifg=1'>see our photos </a></p>",
+						"<h4>Clean Up #4</h4><p><i>22nd December, 2019 - Rocky Point Island</i> <br><br>233 cigarette butts<br><br>Top 3 items found: <ul class='popuplist'> <li> 53 plastic bottle caps </li> <li> 53 soft plastics </li><li> 25 hard plastics</li></li></ul> <br><a href='https://www.facebook.com/photo.php?fbid=10162677748735553&set=pcb.2546814802074218&type=3&theater&ifg=1'>see our photos </a></p>",
 					},
 					"geometry": {
 					"type": "Point",
-					"coordinates": [151.251171, -33.823202]
+					"coordinates": [151.8232687, -33.2524901]
 					}
+
+				}, {
+					"type": "Feature",
+					"properties": {
+						"description": 
+						"<h4>Clean Up #5</h4><p><i>12th January, 2020 - The Esplanade</i> <br><br>302 cigarette butts<br><br> Top 3 items found: <ul class='popuplist'><li> 86 hard plastics </li> <li> 22 plastic bottle caps </li><li> 27 metal bottle caps</li></li></ul> <br><a href='https://www.facebook.com/photo.php?fbid=10162677748735553&set=pcb.2546814802074218&type=3&theater&ifg=1'>see our photos </a></p>",
+					},
+					"geometry": {
+					"type": "Point",
+					"coordinates": [151.2512634, -33.8252721]
+					}
+
+
+				}, {
+					"type": "Feature",
+					"properties": {
+						"description": 
+						"<h4>Clean Up #6</h4><p><i>27th January, 2020 - Public Dining Room to Balmoral Oval</i> <br><br> 216 cigarette butts<br><br>Top 3 items found: <ul class='popuplist'><li> 75+ soft plastics </li> <li> 38 metal bottle caps </li><li> 14 plastic bottle caps</li></li></ul> <br><a href='https://www.facebook.com/photo.php?fbid=10162677748735553&set=pcb.2546814802074218&type=3&theater&ifg=1'>see our photos </a></p>",
+					},
+					"geometry": {
+					"type": "Point",
+					"coordinates": [151.2534363, -33.8281935]
+					}
+
+
+
 
 
 				}]
