@@ -178,38 +178,28 @@ map.on('mouseenter', 'places', function(e) {
 
 
 // Floaties section
+function addButts(buttsNumber) {
+	var floaties = $('.floaties')[0];
+	if (!floaties) {
+		return;
+	}
 
-if ($('.floaties').length){
+	var rect = floaties.getBoundingClientRect();
+	var images = ["/img/singlebutt2.png", "/img/singlebutt.png", "/img/singlebutt3.png" ];
 
-var cigbutt = '/img/singlebutt.png';
+	for (var i = 0; i < buttsNumber; i++) {
+		var top = Math.floor(Math.random() * (Math.floor(rect.height) - 100));
+		var left = Math.floor(Math.random() * (Math.floor(rect.width) - 100));
+		var randomImage = images[Math.floor(Math.random() * images.length)];
 
-var floaties = document.querySelector('.floaties');
+		floaties.innerHTML += '<img style="transform: rotate('+Math.floor(Math.random() * 200)+'deg); animation-delay:-'+(top / 100)+'s; left: '+left+'px; top:'+top+'px " class="cigbutt" src=" '+randomImage+' ">';
+	}
 
-var rect = floaties.getBoundingClientRect();
-
-var myTop = 0;
-var myLeft = 0;
-var myImages = ["/img/singlebutt2.png", "/img/singlebutt.png", "/img/singlebutt3.png" ];
-
-for( var i = 0; i < 120; i++ ) {
-	myTop = Math.floor(Math.random() * (Math.floor(rect.height) - 100));
-	myLeft = Math.floor(Math.random() * (Math.floor(rect.width) - 100));
-	var randomImage = Math.floor(Math.random() * 3);
-	console.log(randomImage);
-
-
-floaties.innerHTML += '<img style="transform: rotate('+Math.floor(Math.random() * 200)+'deg); animation-delay:-'+(myTop / 100)+'s; left: '+myLeft+'px; top:'+myTop+'px " class="cigbutt" src=" '+myImages[randomImage]+' ">';
+	$('.floaties .cigbutt').mouseover(function() {
+		this.parentNode.removeChild(this);
+	});
 }
-
-var cigbutts = document.querySelectorAll('.floaties .cigbutt');
-cigbutts.forEach( function(e, i, a) {
-  e.addEventListener('mouseover', function() {
-    e.parentNode.removeChild(e);
-  })
-});
-
-}
-
+addButts(3);
 
 // Carousel section
 
