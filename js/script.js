@@ -36,7 +36,7 @@ map.addImage('pin', image);
 					"type": "Feature",
 					"properties": {
 						"description": 
-						"<h4>Clean Up #1</h4><p><i>9th November, 2019 - Rotunda Grass</i> <br><br><b>356 </b>cigarette butts<br><br>Top 3 items found: <ul class='popuplist'> <li> xx soft plastics </li> <li> xx metal bottle caps </li><li> xx plastic lids </li> </ul> <br><a href='https://www.facebook.com/groups/Responsiblerunnersbalmoral/permalink/2649473235141707/'>see our photos </a></p>",
+						"<h4>Clean Up #1</h4><p><i>9th November, 2019 - Rotunda Grass</i> <br><br><b>356 </b>cigarette butts<br><br>Top 3 items found: <ul class='popuplist'> <li> 48 soft plastics </li> <li> 23 metal bottle caps </li><li> 16 plastic lids </li> </ul></p>",
 					},
 
 					"geometry": {
