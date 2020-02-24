@@ -199,7 +199,14 @@ function addButts(buttsNumber) {
 		this.parentNode.removeChild(this);
 	});
 }
-addButts(3);
+
+function touchCapable() {
+	return (('ontouchstart' in window)   ||   // html5 browsers
+		(navigator.maxTouchPoints > 0)     ||   // future IE
+		(navigator.msMaxTouchPoints > 0));      // current IE10
+}
+
+addButts(touchCapable() ? 15 : 120);
 
 // Carousel section
 
