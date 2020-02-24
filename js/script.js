@@ -199,7 +199,25 @@ function addButts(buttsNumber) {
 		this.parentNode.removeChild(this);
 	});
 }
-addButts(3);
+
+function touchCapable() {
+	return (('ontouchstart' in window)   ||   // html5 browsers
+		(navigator.maxTouchPoints > 0)     ||   // future IE
+		(navigator.msMaxTouchPoints > 0));      // current IE10
+}
+
+function howManyButts() {
+	var buttAreaPx = 111 * 52; // area of ciggie butt images on average
+	var screenAreaPx = window.innerHeight * window.innerWidth;
+	var coveragePercent = 35;
+	var byArea = (Math.floor((screenAreaPx * (coveragePercent / 100)) / buttAreaPx));
+	if(touchCapable()) {
+		return Math.min(byArea, 40); // Probably not using a mouse, let's cap the maximum butts for these users
+	}
+	return byArea;
+}
+
+addButts(howManyButts());
 
 // Carousel section
 
