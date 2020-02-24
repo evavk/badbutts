@@ -106,7 +106,7 @@ map.addImage('pin', image);
 					"type": "Feature",
 					"properties": {
 						"description": 
-						"<h4>Clean Up #7</h4><p><i>20th February, 2020 - Edwards Beach </i> <br><br><b>xx</b> cigarette butts<br><br>Top 3 items found: <ul class='popuplist'><li> xx soft plastics </li> <li> xx metal bottle caps </li><li> xx plastic bottle caps</li></li></ul> <br><a href='https://www.facebook.com/photo.php?fbid=10162677748735553&set=pcb.2546814802074218&type=3&theater&ifg=1'>see our photos </a></p>",
+						"<h4>Clean Up #8</h4><p><i>23rd February, 2020 - Edwards Beach </i> <br><br><b>42</b> cigarette butts<br><br>Top 3 items found: <ul class='popuplist'><li> 88 styrofoam pieces</li> <li> 108 soft plastics </li><li> 13 plastic bottle caps</li></li></ul> <br><a href='https://www.facebook.com/photo.php?fbid=10162677748735553&set=pcb.2546814802074218&type=3&theater&ifg=1'>see our photos </a></p>",
 					},
 					"geometry": {
 					"type": "Point",
@@ -118,11 +118,11 @@ map.addImage('pin', image);
 					"type": "Feature",
 					"properties": {
 						"description": 
-						"<h4>Clean Up #8</h4><p><i>21st February, 2020 - South of Balmoral Beach </i> <br><br><b>xx</b> cigarette butts<br><br>Top 3 items found: <ul class='popuplist'><li> xx soft plastics </li> <li> xx metal bottle caps </li><li> xx plastic bottle caps</li></li></ul> <br><a href='https://www.facebook.com/photo.php?fbid=10162677748735553&set=pcb.2546814802074218&type=3&theater&ifg=1'>see our photos </a></p>",
+						"<h4>Clean Up #7</h4><p><i>22nd February, 2020 - Pinic Area (between Bathers Pavillion & Balmoral Beach Club) </i> <br><br><b>158</b> cigarette butts<br><br>Top 3 items found: <ul class='popuplist'><li> 55 soft plastics </li> <li> 27 metal bottle caps </li><li> 29 styrofoam pieces</li></li></ul> <br><a href='https://www.facebook.com/groups/Responsiblerunnersbalmoral/permalink/2850229368399425/'>see our photos </a></p>",
 					},
 					"geometry": {
 					"type": "Point",
-					"coordinates": [151.255868, -33.828467]
+					"coordinates": [151.2506843, -33.8215796]
 					}
 
 
