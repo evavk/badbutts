@@ -285,7 +285,6 @@ body,html{margin:0;padding:0;}
 	overflow-x: hidden;
 	overflow-y: auto;
 	perspective: 2px;
-	height: 100vh;
 }
 
 
@@ -297,16 +296,14 @@ body,html{margin:0;padding:0;}
 	background: url(../img/landing.jpg) no-repeat center center;
 	background-size: cover;
 	background-attachment:fixed;
-	height:100vh;
+	min-height:100vh;
+	padding-bottom: 50px;
 }
 
 .get-involved-box {
 	background-color:#fff;
 	text-align: center;
-	padding-top:60px;
-	padding-right:80px;
-	padding-left:80px;
-	padding-bottom:60px;
+	padding: 30px 40px;
 }
 
 
