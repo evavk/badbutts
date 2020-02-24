@@ -198,7 +198,6 @@ div.bothprofiles {
  }
 
  .mapboxgl-popup-content {
- 	width:400px;
  	padding:25px; 
 	font-family: "Montserrat", sans-serif;
 	z-index: -1;
